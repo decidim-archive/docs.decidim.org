@@ -51,6 +51,9 @@ content:
   - url: *features
     branches: [master]
     start_path: es
+  - url: &publications https://github.com/decidim/docs-publications.git
+    branches: [master]
+    start_path: en
   - url: &social-contract https://github.com/decidim/docs-social-contract.git
     branches: [master]
     start_path: ca
